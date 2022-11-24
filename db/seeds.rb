@@ -5,3 +5,9 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+
+Bird.create!(name: "Black-Capped Chickadee", species: "Poecile Attricapillus")
+Bird.create!(name: "Grackie", species: "Quiscula Quiscula")
+Bird.create!(name: "Common Starling", species: "Sturnus Vulgaris")
+Bird.create!(name: "Mourning DOVE", species: "Zenaida Macroura")
